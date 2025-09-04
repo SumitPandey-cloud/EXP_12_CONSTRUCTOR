@@ -3,7 +3,7 @@ using namespace std;
 
 class student {
 int rn;
-char n[100];
+char n[1000];
 float avg;
 public:
 student() {
@@ -29,3 +29,4 @@ s1.display();
 return 0;
 
 }
+
