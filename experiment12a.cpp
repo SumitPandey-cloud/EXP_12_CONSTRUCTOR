@@ -3,7 +3,7 @@ using namespace std;
 
 class student {
 int rn;
-char n[100];
+char n[1000];
 float avg;
 public:
 student() {
@@ -11,7 +11,7 @@ student() {
     cin >> n;
     cout << "Enter the roll no.: ";
     cin >> rn;
-    cout << "Enter the average: ";
+    cout << "Enter tthe average: ";
     cin >> avg;
 }
 
@@ -29,3 +29,4 @@ s1.display();
 return 0;
 
 }
+
